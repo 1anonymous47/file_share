@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Uploads.com</title>
+</head>
+<body>
+    
+    <h1>Uploade the file</h1>
+    <h3>Wait until Receive Response as Staus To get the Link</h3>
+    <form>
+        <label>Enter 8 digit as a password</label>
+        <input type="text" id="password" />
+        <br><br>
+        <input type="file" id="file" required />
+        <br><br>
+        <button type="submit" onclick="uploader(event)">Upload</button>
+    </form>
+    <a id="link"></a>
+    <h1 id="status"></h1>
+</body>
+</html>
